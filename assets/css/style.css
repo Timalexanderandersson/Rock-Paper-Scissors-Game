@@ -28,6 +28,8 @@ main{
 /*big game area div*/
 #thebiggamearea{
     width: 50vh;
-    height: 50vh;
+    height: 60vh;
     background-color: white;
+    border-radius: 7px;
+    margin-top: 30px;
 }
