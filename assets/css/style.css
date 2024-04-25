@@ -46,3 +46,11 @@ main {
     border-style: solid ;
     border-color: black;
 }
+
+/*Button Div*/
+#AlternativsForGame{
+
+display: flex;
+align-items: center;
+
+}
