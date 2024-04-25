@@ -23,3 +23,10 @@ main{
     width: auto;
     min-height: auto;
 }
+
+/*big game area div*/
+#thebiggamearea{
+    width: 50vh;
+    height: 50vh;
+    background-color: white;
+}
