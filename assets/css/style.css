@@ -19,7 +19,8 @@ font-size: 1.3rem;
 }
 
 main{
-    
+    display: flex;
+    justify-content: center;
     width: auto;
     min-height: auto;
 }
