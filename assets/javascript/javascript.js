@@ -27,7 +27,5 @@ function startTheGame() {
     TheGameHere.appendChild(MyStartButton)
     MyStartButton.classList.add('StartButton')
 
-
-
 };
 startTheGame()
