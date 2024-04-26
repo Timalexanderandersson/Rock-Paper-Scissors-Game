@@ -15,6 +15,6 @@ let PlayerScore = 0;
 
 
 //Function to start the game
-function startTheGame() {
+function playingTheGame() {
 
 };
