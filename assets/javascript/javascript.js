@@ -13,8 +13,11 @@ let MyStartButton = document.createElement('button')
 let ComputerScoreHere = 0;
 let PlayerScore = 0;
 
+let ChoicesHere = ["Rock","Paper","Scissors"];
+
 
 //Function to start the game
 function playingTheGame() {
+
 
 };
