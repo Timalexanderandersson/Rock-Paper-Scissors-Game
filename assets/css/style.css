@@ -67,3 +67,12 @@ align-items: center;
     border-style: none;
     background-color: #A78387;
 }
+
+/*Score Part*/
+#scorepart{
+    width: 38vh;
+    height: 5vh;
+    border-style: solid;
+    border-color: black;
+    margin-top: 17px;
+}
