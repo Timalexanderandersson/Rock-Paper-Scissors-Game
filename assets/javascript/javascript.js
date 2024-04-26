@@ -20,6 +20,14 @@ function startTheGame() {
     ScorePartOfGame.style.borderStyle = 'none';
     thebiggamearea.style.backgroundColor = '#A78387';
     ScorePartOfGame.style.borderStyle = 'none'
+   
+    let MyStartButton = document.createElement('button')
 
-}
+    MyStartButton.innerText = 'Start Game!'
+    TheGameHere.appendChild(MyStartButton)
+    MyStartButton.classList.add('StartButton')
+
+
+
+};
 startTheGame()
