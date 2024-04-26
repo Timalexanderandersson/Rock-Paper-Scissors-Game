@@ -64,16 +64,6 @@ align-items: center;
 
 }
 
-/*The Start Button*/
-.StartButton{
-  margin-left: 80px;
-  padding: 12px;
-  border-radius: 7px;
-  margin-top: 80px;
-  background-color: #dbccce;
-
-}
-
 /*Buttons*/
 
 .buttonshere{
@@ -85,6 +75,12 @@ align-items: center;
     border-style: none;
     background-color: #A78387;
 }
+
+
+.buttonshere:active{
+    background-color: #c2b1b3;
+}
+
 
 /*Score Part*/
 #scorepart{
