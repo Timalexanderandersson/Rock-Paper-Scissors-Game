@@ -21,6 +21,7 @@ function playingTheGame() {
 
 
 };
+
 //ScoreKeeping here
 function ScoreKeepingHere(){
     let ComputerScoreHere = 0;
@@ -29,5 +30,9 @@ function ScoreKeepingHere(){
 
 // computer choices
 function ComputerGaming() {
+    let theComputerNumber = Math.floor(Math.random()*3);
     
-}
+    
+   
+};
+ComputerGaming()
