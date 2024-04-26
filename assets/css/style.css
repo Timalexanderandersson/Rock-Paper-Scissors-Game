@@ -53,8 +53,7 @@ main {
    
     width: 37vh;
     height: 38vh;
-    border-style: solid ;
-    border-color: black;
+   
 }
 
 /*Button Div*/
@@ -91,7 +90,6 @@ align-items: center;
 #scorepart{
     width: 38vh;
     height: 5vh;
-    border-style: solid;
-    border-color: black;
+  
     margin-top: 17px;
 }
