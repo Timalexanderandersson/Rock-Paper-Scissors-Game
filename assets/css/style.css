@@ -55,6 +55,15 @@ align-items: center;
 
 }
 
+/*The Start Button*/
+.StartButton{
+  margin-left: 80px;
+  padding: 12px;
+  border-radius: 7px;
+  margin-top: 80px;
+  background-color: #dbccce;
+
+}
 
 /*Buttons*/
 
