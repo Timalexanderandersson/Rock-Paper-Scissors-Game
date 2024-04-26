@@ -25,4 +25,9 @@ function playingTheGame() {
 function ScoreKeepingHere(){
     let ComputerScoreHere = 0;
     let PlayersScoreHere = 0;
+};
+
+// computer choices
+function ComputerGaming() {
+    
 }
