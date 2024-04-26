@@ -26,17 +26,27 @@ main {
     min-height: auto;
 }
 
+.TheNewHeader{
+    margin-top: 40px;
+}
+
+
+
+
 /*big game area div*/
 #thebiggamearea {
     width: 50vh;
     height: 60vh;
     background-color: white;
     border-radius: 7px;
-    margin-top: 20px;
+    margin-top: 10px;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
+
+
+
 
 /*The Game text Area*/
 #Rockpaperandscissors{
