@@ -9,10 +9,16 @@ let headerhere = document.getElementById('Headerhere');
 let mainpartHere = document.getElementById('mainPart')
 let MyStartButton = document.createElement('button')
 
+// Game Text 
+let GameareaText = document.createElement('h3')
+    GameareaText.innerText = 'Choose your alternativ!'
+    TheGameHere.appendChild(GameareaText)
+    GameareaText.classList.add('TextInsideGame')
 
-
-
+// Alternativs For Game
 let ChoicesHere = ["Rock","Paper","Scissors"];
+
+
 
 //ScoreKeeping here
 function ScoreKeepingHere(){
@@ -35,8 +41,10 @@ ComputerGaming()
 function playingTheGame() {
 
     
-
 };
+
+playingTheGame()
+
 
 
 
