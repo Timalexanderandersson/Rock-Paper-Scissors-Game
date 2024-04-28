@@ -25,8 +25,7 @@ function ScoreKeepingHere(){
 function ComputerGaming() {
     let theComputerNumber = Math.floor(Math.random()*3);
     let RandomChoicesHere = ChoicesHere[theComputerNumber];
-    console.log(RandomChoicesHere)
-    
+    console.log(RandomChoicesHere);
 };
 ComputerGaming()
 
@@ -35,6 +34,7 @@ ComputerGaming()
 //Function to start the game
 function playingTheGame() {
 
+    
 
 };
 
