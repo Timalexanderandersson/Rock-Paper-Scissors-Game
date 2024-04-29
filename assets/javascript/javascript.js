@@ -38,7 +38,19 @@ ComputerGaming()
 
 
 //Function to start the game
-function playingTheGame() {
+function playingTheGame(AlternativHere) {
+
+    if(AlternativHere === RandomChoicesHere){
+        
+    } else if (AlternativHere === "Rock" && RandomChoicesHere === 'Scissors') {
+
+    } else if (AlternativHere === 'Paper' && RandomChoicesHere === "Rock"){
+
+    } else if (AlternativHere === "Scissors" && RandomChoicesHere === "Paper"){
+
+    } else {
+
+    }
 
     
 };
