@@ -7,7 +7,7 @@ let ScorePartOfGame = document.getElementById('scorepart');
 let AlternativesInGameDiv = document.getElementById('AlternativsForGame');
 let headerhere = document.getElementById('Headerhere');
 let mainpartHere = document.getElementById('mainPart')
-let MyStartButton = document.createElement('button')
+
 
 // Game Text 
 let GameareaText = document.createElement('h3')
