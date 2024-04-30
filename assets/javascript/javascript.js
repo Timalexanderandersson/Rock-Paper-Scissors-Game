@@ -9,6 +9,10 @@ let headerhere = document.getElementById('Headerhere');
 let mainpartHere = document.getElementById('mainPart');
 
 
+//ScoreKeeping numbers
+let ComputerScoreHere = 0;
+let PlayersScoreHere = 0;
+
 //Score keeping 
 let textForThePlayer = document.createElement('p');
 textForThePlayer.textContent = 'You win :';
@@ -16,6 +20,7 @@ ScorePartOfGame.appendChild(textForThePlayer);
 let TextForComputer = document.createElement('p');
 TextForComputer.textContent = 'Computer win :';
 ScorePartOfGame.appendChild(TextForComputer);
+
 
 
 
@@ -30,18 +35,11 @@ let ChoicesHere = ["Rock","Paper","Scissors"];
 
 
 
-//ScoreKeeping here
-function ScoreKeepingHere(){
-    let ComputerScoreHere = 0;
-    let PlayersScoreHere = 0;
-};
-
-
 
 
 //Function to start the game
 function playingTheGame(AlternativHere) {
-
+    
 
 
 // computer choices
@@ -55,7 +53,7 @@ function playingTheGame(AlternativHere) {
     if(AlternativHere === RandomChoicesHere){
        
     } else if (AlternativHere === "Rock" && RandomChoicesHere === 'Scissors') {
-
+        
     } else if (AlternativHere === 'Paper' && RandomChoicesHere === "Rock"){
         
     } else if (AlternativHere === "Scissors" && RandomChoicesHere === "Paper"){
@@ -64,12 +62,12 @@ function playingTheGame(AlternativHere) {
 
     // Computer Wins
     if(RandomChoicesHere === "Rock" && AlternativHere === "Scissors"){
-
+       
     } else if(RandomChoicesHere === "Paper" && AlternativHere === "Rock"){
-        
+   
     } else if (RandomChoicesHere === "Scissors" && AlternativHere === "Paper"){
-        
-    }
+       
+    };
 
     console.log('PlayingtheGame');
 };
