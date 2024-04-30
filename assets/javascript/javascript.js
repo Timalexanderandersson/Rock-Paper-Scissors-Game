@@ -7,6 +7,7 @@ let ScorePartOfGame = document.getElementById('scorepart');
 let AlternativesInGameDiv = document.getElementById('AlternativsForGame');
 let headerhere = document.getElementById('Headerhere');
 let mainpartHere = document.getElementById('mainPart');
+let PlayAgainHere = document.createElement('button');
 
 
 //ScoreKeeping numbers
@@ -96,16 +97,17 @@ function CountingDownGame(){
         GameareaText.innerText = 'congratulations you won!';
         GameareaText.style.color = 'Green'
         GameareaText.style.fontSize = '1.3rem'
-        AlternativesInGameDiv.innerHTML = '';
-        ScorePartOfGame.innerHTML = '';
+        AlternativesInGameDiv.style.display = 'none';
+        ScorePartOfGame.style.display= 'none';
     } else if(ComputerScoreHere >= 3) {
         GameareaText.innerText = 'Sorry You lose!';
         GameareaText.style.color = 'Red'
         GameareaText.style.fontSize = '1.5rem'
-        AlternativesInGameDiv.innerHTML = '';
-        ScorePartOfGame.innerHTML = '';
+        AlternativesInGameDiv.style.display = 'none';
+        ScorePartOfGame.style.display = 'none';
         
     }
 };
+
 
 
