@@ -135,10 +135,11 @@ function CountingDownGame(){
 
 
 
-// restart Game
+// Restart Game
 function StartGameAgain(){
     location.reload()
     console.log('restart')
 };
 
+//BUtton for Restart The Game
 PlayAgainHere.addEventListener('click',StartGameAgain)
