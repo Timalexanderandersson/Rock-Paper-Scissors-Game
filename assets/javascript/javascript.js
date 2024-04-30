@@ -51,26 +51,37 @@ function playingTheGame(AlternativHere) {
 
 
     if(AlternativHere === RandomChoicesHere){
-       
+        GameareaText.innerText = 'Same As The Computer!';
     } else if (AlternativHere === "Rock" && RandomChoicesHere === 'Scissors') {
+       
+        GameareaText.innerText = 'You Won!';
         ++PlayersScoreHere;
         textForThePlayer.textContent = 'You win :' + PlayersScoreHere;
+
     } else if (AlternativHere === 'Paper' && RandomChoicesHere === "Rock"){
+        GameareaText.innerText = 'You Won!';
         ++PlayersScoreHere;
         textForThePlayer.textContent = 'You win :' + PlayersScoreHere;
+
     } else if (AlternativHere === "Scissors" && RandomChoicesHere === "Paper"){
+        GameareaText.innerText = 'You Won!';
         ++PlayersScoreHere;
         textForThePlayer.textContent = 'You win :'+ PlayersScoreHere;
     };
 
     // Computer Wins
     if(RandomChoicesHere === "Rock" && AlternativHere === "Scissors"){
+        GameareaText.innerText = 'You Lose!';
         ++ComputerScoreHere;
         TextForComputer.textContent = 'Computer win :'+ ComputerScoreHere;
+
     } else if(RandomChoicesHere === "Paper" && AlternativHere === "Rock"){
+        GameareaText.innerText = 'You Lose!';
         ++ComputerScoreHere;
         TextForComputer.textContent = 'Computer win :'+ ComputerScoreHere;
+
     } else if (RandomChoicesHere === "Scissors" && AlternativHere === "Paper"){
+        GameareaText.innerText = 'You Lose!';
         ++ComputerScoreHere;
         TextForComputer.textContent = 'Computer win :'+ ComputerScoreHere;
     };
@@ -118,7 +129,7 @@ function CountingDownGame(){
 
 
 
-
+// restart Game
 function StartGameAgain(){
     location.reload()
     console.log('restart')
