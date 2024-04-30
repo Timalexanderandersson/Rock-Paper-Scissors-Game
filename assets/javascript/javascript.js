@@ -40,7 +40,7 @@ function playingTheGame(AlternativHere) {
 
 // computer choices
 
-    let theComputerNumber = Math.floor(Math.random()*2);
+    let theComputerNumber = Math.floor(Math.random()*3);
     let RandomChoicesHere = ChoicesHere[theComputerNumber];
     console.log(RandomChoicesHere);
 
