@@ -27,6 +27,11 @@ function ScoreKeepingHere(){
 };
 
 
+
+
+//Function to start the game
+function playingTheGame(AlternativHere) {
+
 // computer choices
 function ComputerGaming() {
     let theComputerNumber = Math.floor(Math.random()*3);
@@ -34,11 +39,6 @@ function ComputerGaming() {
     console.log(RandomChoicesHere);
 };
 ComputerGaming()
-
-
-
-//Function to start the game
-function playingTheGame(AlternativHere) {
 
     if(AlternativHere === RandomChoicesHere){
         
