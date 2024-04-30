@@ -9,6 +9,15 @@ let headerhere = document.getElementById('Headerhere');
 let mainpartHere = document.getElementById('mainPart');
 
 
+//Score keeping 
+let TextForComputer = document.createElement('p');
+TextForComputer.textContent = 'Computer win :';
+ScorePartOfGame.appendChild(TextForComputer);
+let textForThePlayer = document.createElement('p');
+textForThePlayer.textContent = 'You win :';
+ScorePartOfGame.appendChild(textForThePlayer);
+
+
 // Game Text 
 let GameareaText = document.createElement('h3');
     GameareaText.innerText = 'Choose your alternativ!';
