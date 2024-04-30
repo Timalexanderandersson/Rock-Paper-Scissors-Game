@@ -6,14 +6,14 @@ let TheGameHere = document.getElementById('Rockpaperandscissors');
 let ScorePartOfGame = document.getElementById('scorepart');
 let AlternativesInGameDiv = document.getElementById('AlternativsForGame');
 let headerhere = document.getElementById('Headerhere');
-let mainpartHere = document.getElementById('mainPart')
+let mainpartHere = document.getElementById('mainPart');
 
 
 // Game Text 
-let GameareaText = document.createElement('h3')
-    GameareaText.innerText = 'Choose your alternativ!'
-    TheGameHere.appendChild(GameareaText)
-    GameareaText.classList.add('TextInsideGame')
+let GameareaText = document.createElement('h3');
+    GameareaText.innerText = 'Choose your alternativ!';
+    TheGameHere.appendChild(GameareaText);
+    GameareaText.classList.add('TextInsideGame');
 
 // Alternativs For Game
 let ChoicesHere = ["Rock","Paper","Scissors"];
@@ -43,22 +43,32 @@ function playingTheGame(AlternativHere) {
 
 
     if(AlternativHere === RandomChoicesHere){
-        
+       
     } else if (AlternativHere === "Rock" && RandomChoicesHere === 'Scissors') {
 
     } else if (AlternativHere === 'Paper' && RandomChoicesHere === "Rock"){
-
+        
     } else if (AlternativHere === "Scissors" && RandomChoicesHere === "Paper"){
-
+        
     } else {
 
-    }
+    };
 
-    
+    console.log('PlayingtheGame');
 };
 
-playingTheGame()
+playingTheGame();
 
 
+//EventListeners for the buttons
+RockHere.addEventListener('click', function (){
+    playingTheGame("Rock")
+});
 
+PaperHere.addEventListener('click', function (){
+    playingTheGame("Paper")
+});
+SiccorsHere.addEventListener('click', function (){
+    playingTheGame("Scissors")
+});
 
