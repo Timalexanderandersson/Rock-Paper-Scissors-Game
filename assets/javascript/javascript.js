@@ -9,6 +9,9 @@ let headerhere = document.getElementById('Headerhere');
 let mainpartHere = document.getElementById('mainPart');
 let PlayAgainHere = document.createElement('button');
 
+//Play Again Button
+PlayAgainHere.innerText = 'Play Again!'
+PlayAgainHere.classList.add('MynewButton')
 
 //ScoreKeeping numbers
 let ComputerScoreHere = 0;
@@ -99,15 +102,16 @@ function CountingDownGame(){
         GameareaText.style.fontSize = '1.3rem'
         AlternativesInGameDiv.style.display = 'none';
         ScorePartOfGame.style.display= 'none';
+        GameareaText.appendChild(PlayAgainHere)
+
     } else if(ComputerScoreHere >= 3) {
         GameareaText.innerText = 'Sorry You lose!';
         GameareaText.style.color = 'Red'
         GameareaText.style.fontSize = '1.5rem'
         AlternativesInGameDiv.style.display = 'none';
         ScorePartOfGame.style.display = 'none';
+        GameareaText.appendChild(PlayAgainHere)
+
         
     }
 };
-
-
-
