@@ -31,6 +31,10 @@ let GameareaText = document.createElement('h3');
     GameareaText.innerText = 'Choose your alternativ!';
     TheGameHere.appendChild(GameareaText);
     GameareaText.classList.add('TextInsideGame');
+    let bestOFthree = document.createElement('p')
+    bestOFthree.innerText = 'First To 3 Scores Wins!'
+    TheGameHere.appendChild(bestOFthree)
+
 
 // Alternativs For Game
 let ChoicesHere = ["Rock","Paper","Scissors"];
@@ -113,6 +117,7 @@ function CountingDownGame(){
         GameareaText.style.fontSize = '1.3rem'
         AlternativesInGameDiv.style.display = 'none';
         ScorePartOfGame.style.display= 'none';
+        bestOFthree.style.display = 'none';
         GameareaText.appendChild(PlayAgainHere)
 
     } else if(ComputerScoreHere >= 3) {
@@ -121,6 +126,7 @@ function CountingDownGame(){
         GameareaText.style.fontSize = '1.5rem'
         AlternativesInGameDiv.style.display = 'none';
         ScorePartOfGame.style.display = 'none';
+        bestOFthree.style.display = 'none';
         GameareaText.appendChild(PlayAgainHere)
 
         
