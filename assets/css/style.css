@@ -10,6 +10,12 @@ body {
     background-color: #DDDCCA;
   
 }
+/*game score*/ 
+
+p{
+    margin-left: 15px;
+    font-size: 1rem;
+}
  
 /*Header*/
 header {
@@ -103,8 +109,12 @@ align-items: center;
 
 /*Score Part*/
 #scorepart{
-    width: 38vh;
+    max-width: 40vh;
     height: 5vh;
-  
+  display: flex;
     margin-top: 17px;
+    flex-direction: row;
+    justify-content: center;
+    
 }
+
