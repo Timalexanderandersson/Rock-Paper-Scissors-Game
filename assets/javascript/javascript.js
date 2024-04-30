@@ -53,23 +53,29 @@ function playingTheGame(AlternativHere) {
     if(AlternativHere === RandomChoicesHere){
        
     } else if (AlternativHere === "Rock" && RandomChoicesHere === 'Scissors') {
-        
+        ++PlayersScoreHere;
+        textForThePlayer.textContent = 'You win :' + PlayersScoreHere;
     } else if (AlternativHere === 'Paper' && RandomChoicesHere === "Rock"){
-        
+        ++PlayersScoreHere;
+        textForThePlayer.textContent = 'You win :' + PlayersScoreHere;
     } else if (AlternativHere === "Scissors" && RandomChoicesHere === "Paper"){
-        
+        ++PlayersScoreHere;
+        textForThePlayer.textContent = 'You win :'+ PlayersScoreHere;
     };
 
     // Computer Wins
     if(RandomChoicesHere === "Rock" && AlternativHere === "Scissors"){
-       
+        ++ComputerScoreHere;
+        TextForComputer.textContent = 'Computer win :'+ ComputerScoreHere;
     } else if(RandomChoicesHere === "Paper" && AlternativHere === "Rock"){
-   
+        ++ComputerScoreHere;
+        TextForComputer.textContent = 'Computer win :'+ ComputerScoreHere;
     } else if (RandomChoicesHere === "Scissors" && AlternativHere === "Paper"){
-       
+        ++ComputerScoreHere;
+        TextForComputer.textContent = 'Computer win :'+ ComputerScoreHere;
     };
 
-    console.log('PlayingtheGame');
+    console.log('PlayingtheGamehere');
 };
 
 
