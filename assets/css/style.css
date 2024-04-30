@@ -7,7 +7,7 @@
 body {
     max-width: 100vh;
     max-width: 100vh;
-    background-color: #A78387;
+    background-color: #DDDCCA;
   
 }
  
@@ -92,12 +92,12 @@ align-items: center;
     border-radius: 6px;
     font-weight: 700;
     border-style: none;
-    background-color: #A78387;
+    background-color: #DDDCCA;
 }
 
 
 .buttonshere:active{
-    background-color: #c2b1b3;
+    background-color: #DDDCCA;
 }
 
 
