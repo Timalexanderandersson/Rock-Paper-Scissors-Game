@@ -115,3 +115,13 @@ function CountingDownGame(){
         
     }
 };
+
+
+
+
+function StartGameAgain(){
+    location.reload()
+    console.log('restart')
+};
+
+PlayAgainHere.addEventListener('click',StartGameAgain)
