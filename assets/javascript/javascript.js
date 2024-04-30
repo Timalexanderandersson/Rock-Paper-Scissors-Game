@@ -93,8 +93,19 @@ SiccorsHere.addEventListener('click', function (){
 // function for ending game if its over 3 wins
 function CountingDownGame(){
     if(PlayersScoreHere >= 3){
-    
+        GameareaText.innerText = 'congratulations you won!';
+        GameareaText.style.color = 'Green'
+        GameareaText.style.fontSize = '1.3rem'
+        AlternativesInGameDiv.innerHTML = '';
+        ScorePartOfGame.innerHTML = '';
     } else if(ComputerScoreHere >= 3) {
-      
+        GameareaText.innerText = 'Sorry You lose!';
+        GameareaText.style.color = 'Red'
+        GameareaText.style.fontSize = '1.5rem'
+        AlternativesInGameDiv.innerHTML = '';
+        ScorePartOfGame.innerHTML = '';
+        
     }
 };
+
+
