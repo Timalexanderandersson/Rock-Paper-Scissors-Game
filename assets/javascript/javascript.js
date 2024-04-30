@@ -70,7 +70,7 @@ function playingTheGame(AlternativHere) {
         ++ComputerScoreHere;
         TextForComputer.textContent = 'Computer win :'+ ComputerScoreHere;
     };
-
+    CountingDownGame()
     console.log('PlayingtheGamehere');
 };
 
@@ -89,3 +89,12 @@ SiccorsHere.addEventListener('click', function (){
     playingTheGame("Scissors")
 });
 
+
+// function for ending game if its over 3 wins
+function CountingDownGame(){
+    if(PlayersScoreHere >= 3){
+    
+    } else if(ComputerScoreHere >= 3) {
+      
+    }
+};
