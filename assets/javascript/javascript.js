@@ -50,14 +50,21 @@ function playingTheGame(AlternativHere) {
         
     } else if (AlternativHere === "Scissors" && RandomChoicesHere === "Paper"){
         
-    } else {
-
     };
+
+    // Computer Wins
+    if(RandomChoicesHere === "Rock" && AlternativHere === "Scissors"){
+
+    } else if(RandomChoicesHere === "Paper" && AlternativHere === "Rock"){
+        
+    } else if (RandomChoicesHere === "Scissors" && AlternativHere === "Paper"){
+        
+    }
 
     console.log('PlayingtheGame');
 };
 
-playingTheGame();
+
 
 
 //EventListeners for the buttons
