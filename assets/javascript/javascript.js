@@ -22,8 +22,6 @@ TextForComputer.textContent = 'Computer win :';
 ScorePartOfGame.appendChild(TextForComputer);
 
 
-
-
 // Game Text 
 let GameareaText = document.createElement('h3');
     GameareaText.innerText = 'Choose your alternativ!';
@@ -35,8 +33,6 @@ let ChoicesHere = ["Rock","Paper","Scissors"];
 
 
 
-
-
 //Function to start the game
 function playingTheGame(AlternativHere) {
     
@@ -44,7 +40,7 @@ function playingTheGame(AlternativHere) {
 
 // computer choices
 
-    let theComputerNumber = Math.floor(Math.random()*3);
+    let theComputerNumber = Math.floor(Math.random()*2);
     let RandomChoicesHere = ChoicesHere[theComputerNumber];
     console.log(RandomChoicesHere);
 
