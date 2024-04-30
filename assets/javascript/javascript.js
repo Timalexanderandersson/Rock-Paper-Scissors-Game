@@ -32,13 +32,15 @@ function ScoreKeepingHere(){
 //Function to start the game
 function playingTheGame(AlternativHere) {
 
+
+
 // computer choices
-function ComputerGaming() {
+
     let theComputerNumber = Math.floor(Math.random()*3);
     let RandomChoicesHere = ChoicesHere[theComputerNumber];
     console.log(RandomChoicesHere);
-};
-ComputerGaming()
+
+
 
     if(AlternativHere === RandomChoicesHere){
         
