@@ -89,6 +89,15 @@
 
  ## HTML Validator
 
- 
+ ![alt text](assets/images/onerrrorhtml.PNG)
+
+ * one problem was found in the HTML validator.
+
+ ### Solving
+ * deleted the last img line from the HTML code and the problem was solved.
+
+ ![htmlvalidator](<assets/images/noerrors in html.PNG>)
+
+ * No error was found after the problem was solved.
 
 
