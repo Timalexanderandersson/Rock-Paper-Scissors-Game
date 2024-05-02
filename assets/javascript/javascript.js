@@ -1,17 +1,16 @@
 let RockHere = document.getElementById('Rock');
 let PaperHere = document.getElementById('Paper');
 let SiccorsHere = document.getElementById('Scissors');
-let thebiggamearea = document.getElementById('thebiggamearea');
 let TheGameHere = document.getElementById('Rockpaperandscissors');
 let ScorePartOfGame = document.getElementById('scorepart');
 let AlternativesInGameDiv = document.getElementById('AlternativsForGame');
-let headerhere = document.getElementById('Headerhere');
-let mainpartHere = document.getElementById('mainPart');
+
+
 let PlayAgainHere = document.createElement('button');
 
 //Play Again Button
-PlayAgainHere.innerText = 'Play Again!'
-PlayAgainHere.classList.add('MynewButton')
+PlayAgainHere.innerText = 'Play Again!';
+PlayAgainHere.classList.add('MynewButton');
 
 //ScoreKeeping numbers
 let ComputerScoreHere = 0;
@@ -32,8 +31,8 @@ GameareaText.innerText = 'Choose your alternative!';
 TheGameHere.appendChild(GameareaText);
 GameareaText.classList.add('TextInsideGame');
 let bestOFthree = document.createElement('p')
-bestOFthree.innerText = 'First To 3 Scores Wins!'
-TheGameHere.appendChild(bestOFthree)
+bestOFthree.innerText = 'First To 3 Scores Wins!';
+TheGameHere.appendChild(bestOFthree);
 
 
 // Alternativs For Game
@@ -71,7 +70,7 @@ function playingTheGame(AlternativHere) {
         GameareaText.innerText = 'You Won!';
         ++PlayersScoreHere;
         textForThePlayer.textContent = 'You win :' + PlayersScoreHere;
-    };
+    }
 
     // Computer Wins
     if (RandomChoicesHere === "Rock" && AlternativHere === "Scissors") {
@@ -88,24 +87,24 @@ function playingTheGame(AlternativHere) {
         GameareaText.innerText = 'You Lose!';
         ++ComputerScoreHere;
         TextForComputer.textContent = 'Computer win :' + ComputerScoreHere;
-    };
-    CountingDownGame()
+    }
+    CountingDownGame();
     console.log('PlayingtheGamehere');
-};
+}
 
 
 
 
 //EventListeners for the buttons
 RockHere.addEventListener('click', function () {
-    playingTheGame("Rock")
+    playingTheGame("Rock");
 });
 
 PaperHere.addEventListener('click', function () {
-    playingTheGame("Paper")
+    playingTheGame("Paper");
 });
 SiccorsHere.addEventListener('click', function () {
-    playingTheGame("Scissors")
+    playingTheGame("Scissors");
 });
 
 
@@ -113,33 +112,33 @@ SiccorsHere.addEventListener('click', function () {
 function CountingDownGame() {
     if (PlayersScoreHere >= 3) {
         GameareaText.innerText = 'congratulations you won!';
-        GameareaText.style.color = 'Green'
-        GameareaText.style.fontSize = '1.3rem'
+        GameareaText.style.color = 'Green';
+        GameareaText.style.fontSize = '1.3rem';
         AlternativesInGameDiv.style.display = 'none';
         ScorePartOfGame.style.display = 'none';
         bestOFthree.style.display = 'none';
-        GameareaText.appendChild(PlayAgainHere)
+        GameareaText.appendChild(PlayAgainHere);
 
     } else if (ComputerScoreHere >= 3) {
         GameareaText.innerText = 'Sorry You lose!';
-        GameareaText.style.color = 'Red'
-        GameareaText.style.fontSize = '1.5rem'
+        GameareaText.style.color = 'Red';
+        GameareaText.style.fontSize = '1.5rem';
         AlternativesInGameDiv.style.display = 'none';
         ScorePartOfGame.style.display = 'none';
         bestOFthree.style.display = 'none';
-        GameareaText.appendChild(PlayAgainHere)
+        GameareaText.appendChild(PlayAgainHere);
 
 
     }
-};
+}
 
 
 
 // Restart Game
 function StartGameAgain() {
-    location.reload()
-    console.log('restart')
-};
+    location.reload();
+    console.log('restart');
+}
 
 //BUtton for Restart The Game
-PlayAgainHere.addEventListener('click', StartGameAgain)
+PlayAgainHere.addEventListener('click', StartGameAgain);
