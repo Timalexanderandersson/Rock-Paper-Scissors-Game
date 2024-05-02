@@ -28,7 +28,7 @@ ScorePartOfGame.appendChild(TextForComputer);
 
 // Game Text 
 let GameareaText = document.createElement('h3');
-GameareaText.innerText = 'Choose your alternativ!';
+GameareaText.innerText = 'Choose your alternative!';
 TheGameHere.appendChild(GameareaText);
 GameareaText.classList.add('TextInsideGame');
 let bestOFthree = document.createElement('p')
