@@ -75,6 +75,20 @@
 
 ## Testing 
 
+* The website is work on the webbrowsers Google Chrome and Firefox And Safari without problems.
 
+* Everything Works on the webpage all the buttons, scores and the links.
+
+
+## Lighthouse testing 
+
+ ![testing lighthouse](<assets/images/lighthouse test game.PNG>)
+
+ - accessibility in the Lighthouse testing was 100.
+ 
+
+ ## HTML Validator
+
+ 
 
 
