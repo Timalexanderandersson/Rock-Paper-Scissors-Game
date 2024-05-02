@@ -92,7 +92,7 @@ main {
 
 /*Button Div*/
 #AlternativsForGame {
-margin-top: 20px;
+    margin-top: 20px;
     display: flex;
     align-items: center;
 
@@ -144,22 +144,25 @@ margin-top: 20px;
 footer {
     display: flex;
     justify-content: center;
+    align-items: center;
 
 }
 
 
 #footerDiv {
-    width: 30vh;
-    background-color: white;
+    width: 38vh;
     padding: 10px;
     margin-top: 12vh;
     border-radius: 10px;
     display: flex;
-    justify-content: center;
+    text-align: center;
+
 }
 
 #thelinkhere {
     color: black;
+    width: 40vh;
+
 }
 
 
