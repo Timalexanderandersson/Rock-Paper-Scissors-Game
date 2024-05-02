@@ -91,7 +91,7 @@ main {
 
 /*Button Div*/
 #AlternativsForGame {
-    margin-top: 20px;
+    margin-top: 12px;
     display: flex;
     align-items: center;
 
@@ -132,9 +132,11 @@ main {
     max-width: 40vh;
     height: 10vh;
     display: flex;
-    margin-top: 20px;
+    margin-top: 10px;
     flex-direction: row;
     justify-content: center;
+   
+    
 
 }
 
