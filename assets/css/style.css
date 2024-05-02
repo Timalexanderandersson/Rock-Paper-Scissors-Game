@@ -48,7 +48,7 @@ main {
 /*Pictute here*/
 #Myfirstpic {
     width: 230px;
-    margin-top: 60px;
+    margin-top: 40px;
     margin-left: 10px;
 }
 
@@ -58,7 +58,7 @@ main {
 /*big game area div*/
 #thebiggamearea {
     width: 50vh;
-    height: 60vh;
+    height: 65vh;
     background-color: white;
     border-radius: 7px;
     margin-top: 10px;
@@ -83,7 +83,7 @@ main {
 
 /*Text inside the Game */
 .TextInsideGame {
-    margin-top: 30px;
+    margin-top: 10px;
 
 }
 
@@ -92,7 +92,7 @@ main {
 
 /*Button Div*/
 #AlternativsForGame {
-
+margin-top: 20px;
     display: flex;
     align-items: center;
 
