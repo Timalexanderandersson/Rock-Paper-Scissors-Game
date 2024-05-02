@@ -211,29 +211,30 @@ footer {
 
 /*Media Queries For screen 992px*/
 @media (min-width: 992px) {
+
     /*Header*/
-header {
-    font-size: 2rem;
+    header {
+        font-size: 2rem;
 
-}
+    }
 
-/*The Game text Area*/
-#Rockpaperandscissors {
+    /*The Game text Area*/
+    #Rockpaperandscissors {
 
-    width: 50vh;
-    height: 47vh;
+        width: 50vh;
+        height: 47vh;
 
-}
+    }
 
-/*Pictute here*/
-#Myfirstpic {
-    width: 350px;
-}
+    /*Pictute here*/
+    #Myfirstpic {
+        width: 350px;
+    }
 
-/*Text inside the Game */
-.TextInsideGame {
-    margin-top: 50px;
-    font-size: 1.7rem;
+    /*Text inside the Game */
+    .TextInsideGame {
+        margin-top: 50px;
+        font-size: 1.7rem;
 
-}
+    }
 }
