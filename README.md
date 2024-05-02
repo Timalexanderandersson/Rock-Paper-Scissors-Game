@@ -68,4 +68,13 @@
 
 
 
+## Things left to implement to the website
+
+* To change the pictures when computer or the player wins or lose. and switch out the buttons to hands instead. 
+
+
+## Testing 
+
+
+
 
