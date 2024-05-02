@@ -15,7 +15,7 @@ body {
 
 p {
     margin-left: 15px;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 /*Header*/
@@ -47,8 +47,8 @@ main {
 
 /*Pictute here*/
 #Myfirstpic {
-    width: 230px;
-    margin-top: 40px;
+    width: 190px;
+    margin-top: 20px;
     margin-left: 10px;
 }
 
@@ -57,14 +57,15 @@ main {
 
 /*big game area div*/
 #thebiggamearea {
-    width: 50vh;
-    height: 65vh;
+    min-width: 50vh;
+    min-height: 55vh;
     background-color: white;
     border-radius: 7px;
     margin-top: 10px;
     display: flex;
     align-items: center;
     flex-direction: column;
+
 }
 
 
@@ -75,18 +76,16 @@ main {
     display: flex;
     align-items: center;
     flex-direction: column;
-
-    width: 37vh;
+    width: 40vh;
     height: 38vh;
 
 }
 
 /*Text inside the Game */
 .TextInsideGame {
-    margin-top: 10px;
+    margin-top: 15px;
 
 }
-
 
 
 
@@ -96,6 +95,7 @@ main {
     display: flex;
     align-items: center;
 
+
 }
 
 /*Buttons*/
@@ -103,7 +103,7 @@ main {
 .buttonshere {
     padding: 10px;
     margin-top: 30px;
-    margin-left: 15px;
+    margin-left: 12px;
     border-radius: 6px;
     font-weight: 700;
     border-style: none;
@@ -130,9 +130,9 @@ main {
 /*Score Part*/
 #scorepart {
     max-width: 40vh;
-    height: 5vh;
+    height: 10vh;
     display: flex;
-    margin-top: 17px;
+    margin-top: 20px;
     flex-direction: row;
     justify-content: center;
 
@@ -155,7 +155,7 @@ footer {
     margin-top: 10vh;
     display: flex;
     text-align: center;
-margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 #thelinkhere {
@@ -163,6 +163,7 @@ margin-bottom: 15px;
     width: 40vh;
 
 }
+
 #thelinkhere:hover {
     color: white;
 }
