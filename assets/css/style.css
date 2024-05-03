@@ -86,8 +86,8 @@ main {
 /*Text inside the Game */
 .textinsidegame {
     margin-top: 15px;
-    
-   
+
+
 
 }
 
@@ -175,18 +175,20 @@ footer {
 #thelinkhere:hover {
     color: white;
 }
+
 /*Media Queries For screen 400px*/
-@media (min-width: 400px){
+@media (min-width: 400px) {
 
     /*big game area div*/
-#thebiggamearea {
-    min-width: 35vh;
-}
-/*The Game text Area*/
-#rockpaperandscissors {
-  margin-top: 26px;
+    #thebiggamearea {
+        min-width: 35vh;
+    }
 
-}
+    /*The Game text Area*/
+    #rockpaperandscissors {
+        margin-top: 26px;
+
+    }
 
 
 }

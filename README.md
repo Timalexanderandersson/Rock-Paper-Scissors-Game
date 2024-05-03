@@ -4,7 +4,7 @@
   And it's made for all people in all ages to get to enjoy the game.
 
 
-![ForallScreens](<assets/images/javascript game.PNG>)
+![alt text](assets/images/thelastRespo.PNG)
 * https://ui.dev/amiresponsive 
 
 
