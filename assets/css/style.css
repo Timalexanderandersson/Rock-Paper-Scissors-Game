@@ -171,6 +171,10 @@ footer {
 #thelinkhere:hover {
     color: white;
 }
+/*Media Queries For screen 400px*/
+@media (min-width: 400px){
+    
+}
 
 
 
