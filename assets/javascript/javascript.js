@@ -30,7 +30,7 @@ let GameareaText = document.createElement('h3');
 GameareaText.innerText = 'Choose your alternative!';
 TheGameHere.appendChild(GameareaText);
 GameareaText.classList.add('TextInsideGame');
-let bestOFthree = document.createElement('p')
+let bestOFthree = document.createElement('p');
 bestOFthree.innerText = 'First To 3 Scores Wins!';
 TheGameHere.appendChild(bestOFthree);
 
