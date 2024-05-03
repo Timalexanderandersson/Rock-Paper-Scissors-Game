@@ -175,7 +175,7 @@ There is no unfixed bugs to fix.
 
 * https://coolors.co/ for the color on the website. (#DDDCCA)
 
-* Paint for the drawing.
+* Paint for the drawing of Favicon.
 
 * https://pixabay.com/vectors/fingers-fist-hands-paper-rock-149295/ for the picture on the website.
 
