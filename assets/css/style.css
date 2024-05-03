@@ -86,6 +86,7 @@ main {
 /*Text inside the Game */
 .textinsidegame {
     margin-top: 15px;
+    
    
 
 }
@@ -94,7 +95,7 @@ main {
 
 /*Button Div*/
 #alternativsforgame {
-    margin-top: 12px;
+    margin-top: 5px;
     display: flex;
     align-items: center;
 
