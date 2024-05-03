@@ -20,10 +20,10 @@
 
  ## Game Area 
 
- ![gamearea](<assets/images/the game area main.PNG>)
+ ![thebigmain](assets/images/thenewbigone.PNG)
 
  ### Text in the game
- ![aternativchoose](assets/images/chooseyour.PNG)
+ ![newaltern](assets/images/newalternative.PNG)
  * telling the player to choose one of the alternative down below.
 
  ![sameascomputer](assets/images/sameasthecomputer.PNG)
