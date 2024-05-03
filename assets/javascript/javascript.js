@@ -4,29 +4,25 @@ let siccorsHere = document.getElementById('scissors');
 let theGameHere = document.getElementById('rockpaperandscissors');
 let scorePartOfGame = document.getElementById('scorepart');
 let alternativesInGameDiv = document.getElementById('alternativsforgame');
-/**
- * play again button that appears after game is finish.
- */
+
+// play again button that appears after game is finish.
 let playAgainHere = document.createElement('button');
 playAgainHere.innerText = 'Play Again!';
 playAgainHere.classList.add('mynewButton');
-/**
- *  The scorekeeping numbers for computer and the player.
- */
+
+// The scorekeeping numbers for computer and the player.
 let computerScoreHere = 0;
 let playersScoreHere = 0;
-/**
- * Scorekeeping text for the player and computer.
- */
+
+//Scorekeeping text for the player and computer.
 let textForThePlayer = document.createElement('p');
 textForThePlayer.textContent = 'You win: ' + playersScoreHere;
 scorePartOfGame.appendChild(textForThePlayer);
 let textForComputer = document.createElement('p');
 textForComputer.textContent = 'Computer win: ' + computerScoreHere;
 scorePartOfGame.appendChild(textForComputer);
-/**
- * Game area that shows the text choose your alternatives and win and lose.
- */
+
+//Game area that shows the text choose your alternatives and win and lose.
 let gameareaText = document.createElement('h3');
 gameareaText.innerText = 'Choose your alternative!';
 theGameHere.appendChild(gameareaText);
@@ -34,9 +30,8 @@ gameareaText.classList.add('textinsidegame');
 let bestOFthree = document.createElement('p');
 bestOFthree.innerText = 'First To 3 Scores Wins!';
 theGameHere.appendChild(bestOFthree);
-/**
- * Alternatives array with the text rock, paper and scissors in it.
- */
+
+// Alternatives array with the text rock, paper and scissors in it.
 let choicesHere = ["rock", "paper", "scissors"];
 /**
  * This function handles everything around playing the game. It takes the guess from the computer
@@ -44,9 +39,8 @@ let choicesHere = ["rock", "paper", "scissors"];
  * @param {*} alternativHere 
  */
 function playingTheGame(alternativHere) {
-    /**
-     * The player winning in this if else statement. inside the playingthegame function.
-     */
+    
+    // The player winning in this if else statement. inside the playingthegame function.
     let theComputerNumber = Math.floor(Math.random() * 3);
     let randomChoicesHere = choicesHere[theComputerNumber];
 
@@ -68,9 +62,8 @@ function playingTheGame(alternativHere) {
         ++playersScoreHere;
         textForThePlayer.textContent = 'You win: ' + playersScoreHere;
     }
-    /**
-     * The computer winning in this if else statement. inside the playingthegame function.
-     */
+    
+    // The computer winning in this if else statement. inside the playingthegame function.
     if (randomChoicesHere === "rock" && alternativHere === "scissors") {
         gameareaText.innerText = 'You Lose!';
         ++computerScoreHere;
@@ -88,9 +81,7 @@ function playingTheGame(alternativHere) {
     }
     countingDownGame();
 }
-/**
- * Eventlisteners for buttons inside playingthegame function. its rock, paper , scissors.
- */
+// Eventlisteners for buttons inside playingthegame function. its rock, paper , scissors.
 rockHere.addEventListener('click', function () {
     playingTheGame("rock");
 });
@@ -130,7 +121,5 @@ function countingDownGame() {
 function startGameAgain() {
     location.reload();
 }
-/**
- * This Addeventlistener is the restart button after the game is won or lose.
- */
+// This Addeventlistener is the restart button after the game is won or lose.
 playAgainHere.addEventListener('click', startGameAgain);
