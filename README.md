@@ -4,7 +4,7 @@
   And it's made for all people in all ages to get to enjoy the game.
 
 
-![alt text](assets/images/thelastRespo.PNG)
+![alt text](assets/images/nyabildenresp.PNG)
 * https://ui.dev/amiresponsive 
 
 
@@ -55,17 +55,11 @@
 
   * Here is the score part. shows the player the amount of wins or loss they have.
   
+![alt text](assets/images/gamerulesbutton.PNG)
+* This is a button that will show the rules for the game when it is pressed.
 
-
-## Footer 
-![Footer](<assets/images/footer here.PNG>)
-
-* On the bottom of the website you can find the Footer with the text and link(Click to find Rules to the game!).
-
-- The text is very clear and helping if there is any questions about the rules of the game.
-
-- Hovering effect so you can see it's a link, the link is taking you to a website that has all the rules to the Rock Paper And Scissors game.
-
+![alt text](assets/images/reglerna.PNG)
+* Here are the rules to the game, and the exit from the rules is in the right corner 
 
 
 
@@ -112,8 +106,10 @@
 
  ## JSHint Validator
  ![JShint](assets/images/jsvalidator.PNG)
+ 
+ ![alt text](assets/images/jshint222.PNG)
 
- * In the JSHint validator it shows that it was missing semicolons but no errors or warnings.
+ * In the JSHint validator it shows that it was missing semicolons and one warning.
 
  ### solving 
 
