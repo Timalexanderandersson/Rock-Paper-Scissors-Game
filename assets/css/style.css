@@ -3,21 +3,16 @@
     padding: 0;
     margin: 0;
 }
-
 body {
     width: auto;
     height: auto;
     background-color: #DDDCCA;
-
 }
-
 /*game score*/
-
 p {
     margin-left: 15px;
     font-size: 0.9rem;
 }
-
 /*Header*/
 header {
     font-size: 1.5rem;
@@ -27,34 +22,24 @@ header {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
 h2 {
-
     font-size: 1.2rem;
 }
-
 main {
     display: flex;
     justify-content: center;
     width: auto;
     min-height: auto;
-
 }
-
 .theNewHeader {
     margin-top: 40px;
 }
-
 /*Pictute here*/
 #myfirstpic {
     width: 190px;
     margin-top: 20px;
     margin-left: 10px;
 }
-
-
-
-
 /*big game area div*/
 #thebiggamearea {
     min-width: 25vh;
@@ -65,13 +50,7 @@ main {
     display: flex;
     align-items: center;
     flex-direction: column;
-
-
 }
-
-
-
-
 /*The Game text Area*/
 #rockpaperandscissors {
     display: flex;
@@ -79,31 +58,18 @@ main {
     flex-direction: column;
     width: auto;
     height: 37vh;
-
-
 }
-
 /*Text inside the Game */
 .textinsidegame {
     margin-top: 15px;
-
-
-
 }
-
-
-
 /*Button Div*/
 #alternativsforgame {
     margin-top: 5px;
     display: flex;
     align-items: center;
-
-
 }
-
 /*Buttons*/
-
 .buttonshere {
     padding: 10px;
     margin-top: 30px;
@@ -113,14 +79,10 @@ main {
     border-style: none;
     background-color: #DDDCCA;
 }
-
-
 .buttonshere:active {
     background-color: #e4e4e4;
 }
-
 /*NEw button Here */
-
 .mynewButton {
     margin-left: 0px;
     background-color: #DDDCCA;
@@ -130,8 +92,6 @@ main {
     font-weight: 700;
     margin-right: 2px;
 }
-
-
 /*Score Part*/
 #scorepart {
     max-width: 40vh;
@@ -140,22 +100,13 @@ main {
     margin-top: 10px;
     flex-direction: row;
     justify-content: center;
-
-
-
 }
-
-
-
 /*Footer*/
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
-
-
 #footerdiv {
     width: 38vh;
     padding: 10px;
@@ -165,107 +116,98 @@ footer {
     margin-bottom: 15px;
     justify-content: center;
 }
-
-#thelinkhere {
-    color: black;
-    width: auto;
-
+/*rules button*/
+#rulesButton{
+    background-color:#DDDCCA;
+    
+    border-radius: 3px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-weight: 700;
 }
-
-#thelinkhere:hover {
-    color: white;
-}
-
+/* Modal styles */
+#rulesModal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    justify-content: center;
+    align-items: center;
+  }
+  #rulesModal .modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  #rulesModal .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
 /*Media Queries For screen 400px*/
 @media (min-width: 400px) {
-
     /*big game area div*/
     #thebiggamearea {
         min-width: 35vh;
     }
-
     /*The Game text Area*/
     #rockpaperandscissors {
         margin-top: 26px;
-
     }
-
-
 }
-
-
-
 /*Media Queries For screen 768px*/
-
 @media (min-width: 768px) {
-
     /*Header*/
     header {
         font-size: 1.8rem;
-
     }
-
-
     /*big game area div*/
     #thebiggamearea {
         width: 60vh;
         height: 60vh;
-
     }
-
-
     /*The Game text Area*/
     #rockpaperandscissors {
-
         width: 42vh;
         height: 42vh;
-
     }
-
     /*Text inside the Game */
     .textinsidegame {
         margin-top: 50px;
         font-size: 1.5rem;
-
     }
-
     /*Pictute here*/
     #Myfirstpic {
         width: 300px;
     }
-
 }
-
-
-
-
-
 /*Media Queries For screen 992px*/
 @media (min-width: 992px) {
-
     /*Header*/
     header {
         font-size: 2rem;
-
     }
-
     /*The Game text Area*/
     #rockpaperandscissors {
-
         width: 50vh;
         height: 47vh;
-
     }
-
     /*Pictute here*/
     #myfirstpic {
         width: 350px;
     }
-
     /*Text inside the Game */
     .textinsidegame {
         margin-top: 50px;
         font-size: 1.7rem;
-
     }
 }
