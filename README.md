@@ -20,7 +20,7 @@
 
  ## Game Area 
 
- ![thebigmain](assets/images/thenewbigone.PNG)
+ ![alt text](assets/images/nybildigen.PNG)
 
  ### Text in the game
  ![newaltern](assets/images/newalternative.PNG)
